@@ -1,0 +1,35 @@
+#contactForm {
+    width: 960px;
+    overflow: auto;
+    margin: 50px 200px;
+    background-color: #ffffff;
+    border: 2px solid #dddddd;
+    padding: 30px 20px;
+}
+
+#contactForm {
+    color: #777777;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;   
+}
+
+input[type=text] {
+    color: lightgray;
+    width: 960px;
+}
+
+input[type=text]:focus {
+    color: black
+}
+
+input[id="messageInput"] {
+    height: 100px;
+}
+
+input[type=submit] {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    width: 100px;
+    height: 50px;
+    border-color: #dddddd;
+    font-size: 16px;
+}
